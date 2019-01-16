@@ -7,8 +7,6 @@ from sqlalchemy.orm import sessionmaker
 from service1 import sendToIDQueue
 import json
 import time
-import sys
-sys.path.insert(0, '../Database')
 from createDB import Base, Patient_Registration, Patient_Vitals
 
 global jsonData
