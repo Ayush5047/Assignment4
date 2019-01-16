@@ -8,7 +8,6 @@ import sys
 from send import sendMessage
 import random
 import json
-sys.path.insert(0, '../Database')
 from createDB import Base, Patient_Registration, Patient_Vitals
 
 
